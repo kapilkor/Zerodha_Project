@@ -1,0 +1,41 @@
+ .clean-btn {
+          background: #f8f9fa !important;
+          border: 1px solid #ddd !important;
+          padding: 14px !important;
+          border-radius: 6px;
+          font-size: 18px;
+          color: #444 !important;
+        }
+
+        .clean-btn:hover {
+          background: #f1f1f1 !important;
+        }
+
+        .clean-list a {
+          background: white !important;
+          border: 1px solid #eee !important;
+          border-left: none !important;
+          border-right: none !important;
+          padding: 12px 15px;
+          color: #555 !important;
+        }
+
+        .clean-list a:hover {
+          background: #fafafa !important;
+        }
+
+        .clean-list a:first-child {
+          border-top: 1px solid #ddd !important;
+        }
+
+        .clean-list a:last-child {
+          border-bottom: 1px solid #ddd !important;
+        }
+
+        .caret {
+          transition: 0.3s;
+        }
+
+        .caret.open {
+          transform: rotate(90deg);
+        }
