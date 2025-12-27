@@ -1,0 +1,87 @@
+{
+    "Equity": {
+        "Equity delivery": {
+            "Brokerage": "Zero Brokerage",
+            "STT/CTT": "0.1% on buy & sell",
+            "Transaction charges": {
+                "NSE": "0.00297%",
+                "BSE": "0.00375%"
+            },
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI charges": "₹10 / crore",
+            "Stamp charges": "0.015% or ₹1500 / crore on buy side"
+        },
+        "Equity intraday": {
+            "Brokerage": "0.03% or Rs. 20/executed order whichever is lower",
+            "STT/CTT": "0.025% on the sell side",
+            "Transaction charges": {
+                "NSE": "0.00297%",
+                "BSE": "0.00375%"
+            },
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI charges": "₹10 / crore",
+            "Stamp charges": "0.003% or ₹300 / crore on buy side"
+        },
+        "F&O - Futures": {
+            "Brokerage": "0.03% or Rs. 20/executed order whichever is lower",
+            "STT/CTT": "0.02% on the sell side",
+            "Transaction charges": {
+                "NSE": "0.00173%",
+                "BSE": "0"
+            },
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI charges": "₹10 / crore",
+            "Stamp charges": "0.002% or ₹200 / crore on buy side"
+        },
+        "F&O - Options": {
+            "Brokerage": "Flat Rs. 20 per executed order",
+            "STT/CTT": {
+                "Buy side": "0.125% of the intrinsic value on options that are bought and exercised",
+                "Sell side": "0.1% on sell side (on premium)"
+            },
+            "Transaction charges": {
+                "NSE": "0.03503% (on premium)",
+                "BSE": "0.0325% (on premium)"
+            },
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI charges": "₹10 / crore",
+            "Stamp charges": "0.003% or ₹300 / crore on buy side"
+        }
+    },
+    "F&O": {
+        "F&O_Futures": {
+            "Brokerage": "0.03% or Rs. 20/executed order whichever is lower",
+            "STT/CTT": "0.02% on the sell side",
+            "Transaction_charges": "NSE: 0.00173%, BSE: 0",
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI_charges": "₹10 / crore",
+            "Stamp_charges": "0.002% or ₹200 / crore on buy side"
+        },
+        "F&O_Options": {
+            "Brokerage": "Flat Rs. 20 per executed order",
+            "STT/CTT": "0.125% of the intrinsic value on options that are bought and exercised, 0.1% on sell side (on premium)",
+            "Transaction_charges": "NSE: 0.03503% (on premium), BSE: 0.0325% (on premium)",
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI_charges": "₹10 / crore",
+            "Stamp_charges": "0.003% or ₹300 / crore on buy side"
+        }
+    },
+    "Commodity": {
+        "Commodity_futures": {
+            "Brokerage": "0.03% or Rs. 20/executed order whichever is lower",
+            "STT/CTT": "0.01% on sell side (Non-Agri)",
+            "Transaction_charges": "MCX: 0.0021%, NSE: 0.0001%",
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI_charges": "Agri: ₹1 / crore, Non-agri: ₹10 / crore",
+            "Stamp_charges": "0.002% or ₹200 / crore on buy side"
+        },
+        "Commodity_options": {
+            "Brokerage": "₹20/executed order",
+            "STT/CTT": "0.05% on sell side",
+            "Transaction_charges": "MCX: 0.0418%, NSE: 0.001%",
+            "GST": "18% on (brokerage + SEBI charges + transaction charges)",
+            "SEBI_charges": "₹10 / crore",
+            "Stamp_charges": "0.003% or ₹300 / crore on buy side"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+// for serch engine optimization , which croll the search engine ky disav ani ky nahi 
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
